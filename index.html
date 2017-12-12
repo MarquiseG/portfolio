@@ -1,0 +1,322 @@
+<html >
+<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!----Socila media icons-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		
+		<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+
+		<title>My Portfolio™</title>
+		
+		<!----Script to scrole pages---->
+				<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					});
+				});
+		</script>
+		<!----Fav icon	---->
+		<link rel="icon" href="images/favicon.ico">
+</head>
+
+	<body>
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.4";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+								<!--Nav bar!-->		
+		    <div id="home" class="header">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container" >
+					<div class="navbar-header">   
+						  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only"> Toggle Navigation </span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+						  <a class="navbar-brand" href="#">My Profolio</a>
+					</div>
+					
+					<div class="collapse navbar-collapse">
+					  <ul class="nav navbar-nav  navbar-right">
+						<li class="active"> <a href="#home" class="scroll">Home</a> </li>
+						<li> <a href="#Cv" class="scroll">Resume</a> </li>
+						<li> <a href="#work" class="scroll">Works</a> </li>
+						<li> <a href="#contact" class="scroll">Contact</a> </li>
+					  </ul>
+					  
+				</div>
+				</div>
+			</nav>
+			</div>
+		
+			
+    
+			       <!--Bannière !-->
+			<div class="banner">
+				<div class="info">
+					<h1>Meriem KAROUNE<span class="blinking-cursor">|</span></h1>
+					<p> Développeur Logiciel et Web </p>
+					
+					
+				</div>
+				<div class="fb-like"></div>
+			</div>
+						
+			<div class="Cv" id="Cv">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<h2 class="section-title uppercase">Curriculum vitae</h2>
+						</div>
+					</div>
+					<div class="row">
+	
+						<div class="col-md-10 col-md-offset-1">
+							<h3>FORMATIONS</h3>
+							<div class="panel-group">
+										<div class="masterDCISS">
+										<div class="education-annee pull-left">2015-2016</div>
+										<div class="pull-left">
+											
+											<a class="btn btn-primary text-left" role="button" data-toggle="collapse" href="#collapseEducation" aria-expanded="false" aria-controls="collapseEducation">
+														  +
+											</a>
+										</div>
+										<div class="panel">
+											<div class="panel-heading">
+													<div class="panel-title">
+														<h4 class="resume-title">Master Double compétence : informatique et sciences sociales</h4>
+													</div>
+																			
+											</div>
+											
+											<div class="collapse" id="collapseEducation">
+												<div id="univ">Université Pierre Mendès France Grenoble</div>
+												<p>
+													J2EE, Android, HTML5 et CSS3, XML, Struts, Intelligence Artificielle, C #.Net, PHP 5, Bootstrap, JQuery
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="masterAnglais">
+										<div class="education-annee pull-left">2007-2013</div>
+										<div class="pull-left">
+											
+											<a class="btn btn-primary text-left" role="button" data-toggle="collapse" href="#collapseEducation2" aria-expanded="false" aria-controls="collapseEducation2">
+														  +
+											</a>
+										</div>
+										<div class="panel">
+											<div class="panel-heading">
+													<div class="panel-title">
+														<h4 class="resume-title">Master Anglais option : Langues appliquées</h4>
+													</div>
+																																
+											</div>
+											<div class="collapse" id="collapseEducation2">
+											  <div id="univ">Université Mentouri Algérie</div>
+											</div>
+											
+											
+										</div>
+									</div>
+									<div class="masterGL">
+										<div class="education-annee pull-left">2005-2011</div>
+										<div class="pull-left">
+											
+											<a class="btn btn-primary text-left" role="button" data-toggle="collapse" href="#collapseEducation3" aria-expanded="false" aria-controls="collapseEducation3">
+														  +
+											</a>
+										</div>
+										<div class="panel">
+											<div class="panel-heading">
+													<div class="panel-title">
+														<h4 class="resume-title">Master en Informatique option : Génie Logiciel</h4>
+													</div>
+																			
+											</div>
+											
+											<div class="collapse" id="collapseEducation3">
+												<div id="univ">Université Mentouri Algérie</div>
+
+											  <p>
+												Gestion de projet, langage de modélisation UML, Réseau de Pétri, JAVA, intelligence artificielle et bases de données Avancées
+											  </p>
+											</div>
+										</div>
+									</div>
+									<div class="masterEGEPM">
+										<div class="education-annee pull-left">2009-2010</div>
+										<div class="pull-left">
+											
+											<a class="btn btn-primary text-left" role="button" data-toggle="collapse" href="#collapseEducation4" aria-expanded="false" aria-controls="collapseEducation4">
+														  +
+											</a>
+										</div>
+										<div class="panel">
+											<div class="panel-heading">
+													<div class="panel-title">
+														<h4 class="resume-title">Master 1 Géographie option : Évaluation Gestion de l'Environnement et Paysages de Montagnes</h4>
+													</div>
+																			
+											</div>
+											
+											<div class="collapse" id="collapseEducation4">
+											  
+												<div id="univ">Université Joseph Fourier Grenoble</div>
+											<p>
+												JavaScript, outils d'aide à la décision, SIG : ArcGIS , MapInfo et IDRISI
+											  </p>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="domaines">
+								<h3>DOMAINES DE COMPETENCES</h3>
+								<p><div id="categorie"><b>Langages : </b></div> <div id="competences"> Java/JEE, Android, C, PHP 5, HTML 5, CSS, JavaScript</div></p>
+								<p><div id="categorie"><b>Frameworks : </b></div> <div id="competences"> Bootstrap, struts</div></p>
+								<p><div id="categorie"><b>SGBD : </b></div> <div id="competences"> Access, PostgreSQL, phpMyAdmin</div></p>
+								<p><div id="categorie"><b>Environnement et outils de développement : </b></div> <div id="competences"> Eclipse, Netbeans, Notepad++, WampServer, photoshop.</div></p>
+								<p><div id="categorie"><b>CMS : </b></div> <div id="competences"> WordPress</div></p>
+								<p><div id="categorie"><b>Librairie : </b></div> <div id="competences"> JQuery</div></p>
+
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<!-----------portfolio-------------->
+			<div class="work"id ="work">
+										
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2 text-center">
+										<h2 class="section-title uppercase"> Projets Réalisés</h2>
+									</div>
+								</div>
+											<section class="row">
+									
+									<div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+									<a href="#" class="thumbnail"><img src="images/gd1.jpg" alt="Image 1" >
+									 <div class="caption"> 
+										<h1> Projet 1 </h1>
+									 </div>
+									</a>
+									</div>
+									
+									
+									<div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+									<a href="#" class="thumbnail"><img src="images/gd2.jpg" alt="Image 2" width="500px " >
+									<div class="caption"> 
+										<h1> Projet 2 </h1>
+									 </div>
+									</a>
+									</div>
+								
+									
+									<div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+									<a href="#" class="thumbnail"><img src="images/gd3.jpg" alt="Image 3" >
+									<div class="caption"> 
+										<h1> Projet 3 </h1>
+									 </div>
+									</a>
+									</div>									
+								
+							    </section>
+							</div>
+					
+						
+			</div>
+			
+							<!---Contact--->
+				<div id="contact" class="contact">
+					<div class="container">
+					
+						<form class="form-horizontal">
+						<div class="row">
+							<div class="col-xs-6">
+							<div class="form-group">
+							<input type="text" class="form-control" placeholder="Nom">
+							</div>
+							<div class="form-group">
+							<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+							</div>
+							<div class="form-group">
+							<textarea class="form-control"></textarea>
+							</div>
+							<button type="submit" class="btn">Envoyer</button>
+							</div>
+						</div>
+						</form>
+					</div>	
+				</div>
+		
+					<!--Footer !-->	
+					
+		<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+			<div class="container">
+					<div class="navbar-text pull-left">
+					<p> My Portfolio
+					</p>
+					</div>
+					<div class="navbar-text pull-right">
+							<a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+							<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+							<a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+					</div>
+					<div class="footer-right">
+								<script type="text/javascript">
+									$(document).ready(function() {
+																			
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+							
+					</div>
+					
+			</div>
+		
+			
+	
+		</div>
+	</body>
+
+</html>
